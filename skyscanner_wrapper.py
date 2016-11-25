@@ -19,9 +19,9 @@ class SkyScanner:
         return resp
 
 
-if __name__ == '__main__':
-    arrival_date = '2016-11-28'
-    ap_from = AIRPORT.UA_KYIV
-    ap_to = AIRPORT.UA_LVIV
-
-    print SkyScanner.get_the_cheapest_price(ap_from, ap_to, arrival_date)
+# if __name__ == '__main__':
+#     arrival_date = '2016-11-28'
+#     ap_from = AIRPORT.UA_KYIV
+#     ap_to = AIRPORT.UA_LVIV
+#
+#     print (SkyScanner.get_the_cheapest_price(ap_from, ap_to, arrival_date))

@@ -1,3 +1,6 @@
+from operator import methodcaller
+from fn.monad import optionable
+
 API_KEY = 'ho367819377743254221696195510147'
 API_URL = 'http://partners.api.skyscanner.net/apiservices'
 
@@ -9,7 +12,8 @@ class URL:
 
 class AIRPORT:
     UA_KYIV = 'KBP'
+    UA_KYIV2 = 'IEV'
     UA_LVIV = 'LWO'
-
-
+    UA_ODESA = 'ODS'
+    UA_DNK = 'DNK'
 
