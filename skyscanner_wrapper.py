@@ -1,4 +1,4 @@
-from skyscanner_consts import URL, AIRPORT
+from skyscanner_consts import URL
 from time import time
 import requests
 
