@@ -16,7 +16,7 @@ def get_all_prices():
         resp = SkyScanner.get_the_cheapest_price(ap_from, ap_to, date)
         if resp['Quotes']:
             print (ap_from, ap_to, resp['Quotes'][0]['MinPrice'])
-            date_timestamp = time.mktime(datetime.strptime('2016-12-12', '%Y-%m-%d').timetuple())
+            date_timestamp = time.mktime(datetime.strptime(date, '%Y-%m-%d').timetuple())
             add_price(ap_from, ap_to, resp['Quotes'][0]['MinPrice'], 'USD', date_timestamp)
 
 get_all_prices()
